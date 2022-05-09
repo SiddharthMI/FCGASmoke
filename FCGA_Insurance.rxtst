@@ -13503,11 +13503,11 @@ GLAgContractorClassCode"
 					</param>
 					<param
 					name="ExcelProcess"
-					value="">
+					value="Excel">
 					</param>
 					<param
 					name="ChromeProcess"
-					value="">
+					value="chrome">
 					</param>
 				</parameters>
 			</testcase>
