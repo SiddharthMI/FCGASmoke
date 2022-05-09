@@ -8879,114 +8879,6 @@ GLAgContractorClassCode"
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
-			<testmodule
-			enabled="False"
-			id="8872d7eb-7233-44ac-9923-85317389bfc9"
-			name="Latest_Excel_Write"
-			ref="bf5d3fb0-e6f5-46d4-ac8e-bcec88814d52"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="GLPolicyNumber"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="a0460a5d-6a1f-4f15-9ca0-34433075bfe9"
-					variablename="MIPolicyNo">
-					</var>
-					<var
-					dataname="XSPolicyNumber"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="c30e8b90-4108-4535-a406-6ba2a55fd2f3"
-					variablename="XSPolicyNo">
-					</var>
-					<var
-					dataname="PrdPremium"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="0e8e039a-6168-46b9-a110-4f6b5005647b"
-					variablename="PrdPremium">
-					</var>
-					<var
-					dataname="ReferralReason"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="97e5bfd5-49c0-4147-918d-674746b70ea5"
-					variablename="ReferralReason">
-					</var>
-					<var
-					dataname="StartTime"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="5dd8a2f6-73b6-43c8-b522-a173ccd9d966"
-					variablename="StartTime">
-					</var>
-					<var
-					dataname="InsuredAddress"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="6b7b0699-fa4b-4648-8cbc-708ec82283d6"
-					variablename="InsuredAddress">
-					</var>
-					<var
-					dataname="GL ClassDescription"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="b90f9a18-2617-46df-8236-9e4848411e5d"
-					variablename="ClassDescription">
-					</var>
-					<var
-					dataname="CarrierSelection"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="4698a0f9-a61f-4b6e-b594-ded5ded3a184"
-					variablename="CarrierName">
-					</var>
-					<var
-					dataname="GLAgBusinessName"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="99a395da-1990-4f57-a576-954b310cde8c"
-					variablename="InsuredName">
-					</var>
-					<var
-					dataname="Policy Type"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="cecde0fc-d4d0-4bc1-9461-5b148a273776"
-					variablename="TestScenario">
-					</var>
-					<var
-					dataname="LOB"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="548806e9-b4d6-4e3f-af46-f2ac69a08c94"
-					variablename="Product">
-					</var>
-					<var
-					dataname="TC No."
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="479ef075-1b98-4b40-a085-3fa1e54c1e2f"
-					variablename="TCID">
-					</var>
-					<var
-					dataname="
-GLAgContractorClassCode"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="36e447c8-7dcd-4072-96c6-ceaf3b839874"
-					variablename="ClassCode">
-					</var>
-					<var
-					dataname="EndTime"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="7bcece8c-9cb5-4f2f-a26d-e437e47e4eae"
-					variablename="EndTime">
-					</var>
-					<var
-					dataname="Comment"
-					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-					variableid="b930431f-322b-42a5-a003-6be381a9436f"
-					variablename="StatusReason">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="AgentIndustryGroup"
-					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
-					variableid="abd70289-0d19-4449-a7a3-d0f57db44589"
-					variablename="ClassGroup">
-					</var>
-				</missingdatabinding>
-			</testmodule>
 			<smartfoldernode
 			id="889b6f25-5bf7-44fe-aec2-3698b96f8575"
 			name="WCIssuance">
@@ -12181,12 +12073,6 @@ GLAgContractorClassCode"
 			name="GLAdditionalInsured_Yes"
 			ref="41308144-2fed-405b-b292-66edf6964d9e"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="b8096662-44f9-4b6e-874b-cc79af34588b"
-			name="ReportToPDFModule"
-			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
-			type="UserCode">
 			</testmodule>
 			<testmodule
 			id="b82800e4-8478-4cc8-805e-a4c9abb53a9a"
@@ -19796,14 +19682,6 @@ GLAgContractorClassCode"
 								<testmodule
 								id="3650e714-a5b1-44d1-afae-bc9ebbdfab28"
 								name="KillProcesses">
-								</testmodule>
-								<testmodule
-								id="8872d7eb-7233-44ac-9923-85317389bfc9"
-								name="Latest_Excel_Write">
-								</testmodule>
-								<testmodule
-								id="b8096662-44f9-4b6e-874b-cc79af34588b"
-								name="ReportToPDFModule">
 								</testmodule>
 							</teardown>
 						</smartfoldernode>
