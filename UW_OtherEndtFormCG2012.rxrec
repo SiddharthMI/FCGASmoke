@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9547deb3-a90e-4ad9-bc4a-641d2d1aacfc"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UW_OtherEndtFormCG2012"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="973cc346-3a0c-44fa-b1b1-0e4e2b146cae"
+		name="UWCG2012_No">
+			1
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="73e5dc03-128d-4370-b954-5e110333882e"
+		sx="474"
+		sy="861"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="873e6366-7da8-498d-9b2c-eb0ce3d7ad95"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="417,845,70,43"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						textboxAdditionalInsured others AI
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtQuestnVal_CG2012
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						AI others textboxAdditionalInsured
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-fieldid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-mstid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onblur"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onfocus"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onkeypress"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//tbody[#'OtherAdditional']//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="264b676e-6f47-4c2c-9800-88654938573a">
+				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
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="15d20fd0-91f2-441e-ba35-c84addf7689d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="873e6366-7da8-498d-9b2c-eb0ce3d7ad95"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//tbody[#'OtherAdditional']//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="1"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="0b44c699-edfd-4654-97e1-f92499ce4cc6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="UWCG2012_No">
+				</binding>
+			</bindings>
+			<info
+			id="873e6366-7da8-498d-9b2c-eb0ce3d7ad95"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="417,845,70,43"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						textboxAdditionalInsured others AI
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtQuestnVal_CG2012
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						AI others textboxAdditionalInsured
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-fieldid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-mstid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onblur"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onfocus"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onkeypress"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//tbody[#'OtherAdditional']//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UW_OtherEndtFormCG2012.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

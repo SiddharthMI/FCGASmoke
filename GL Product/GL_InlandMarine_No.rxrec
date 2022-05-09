@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="483c991d-aa5f-4332-a151-8e1f7664519e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GL_InlandMarine_No"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="0e5cdf78-8ec9-4a9a-b875-93d16e8fd716"
+		name="Status_Reason">
+			Inland Marine
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2fe8c9bd-8d6e-4004-b8a1-bd4f40fbd282"
+		sx="530"
+		sy="928"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="aedc9fff-5273-4c27-bb94-a0d6d36738d9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="labeltag"
+				rect="516,909,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						rbInlandMarineNo
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[7]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="248ecea9-0afe-4973-99e1-77aa49324e48">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABmASYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo26U2
+nN0ptABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFADm6U2nN0ptABVN5njNyw+baygAnjnFXKha2RvMyW/eEE/hQBDL
+LJtnil2Z8osCuaRrhooE2MpKxgldpJ6e3SrDwK7sxJyybDj0phs0ORvcBlCsAeuKAEaaZ5gkQQZj
+D5bNMS5lm8pY1QMylm3ZwOcVYWFVfeCc7An4VGLRFVArupQEBgeSDQAlhn7Nz13N/OoLe4eOKTex
+YkFkyc98Y/PH51chiWGPYmcZJ5NRi0j/AHf3v3ZJHP40AQwSvHbsHly4kKgvls/hTvtUnlAhVL+b
+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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GL_InlandMarine_No.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

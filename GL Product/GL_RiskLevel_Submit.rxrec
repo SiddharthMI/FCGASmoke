@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dcd1588b-7719-451b-9e99-5c50afc37092"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GL_RiskLevel_Submit"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="1276d162-1ce4-46ba-b6a5-3febbbcc48ac"
+		name="Status_Reason">
+			Risk Level (Save and Continue)
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c71cbb1e-8ef1-4970-9c3a-5aeb8de53704"
+		sx="1397"
+		sy="834"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e5ecabdd-9cab-4223-983b-018025b8a85f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1312,811,173,33"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-success float-right mr-4
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						btnSubmitRI
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-success float-right mr-4
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						SAVE &amp; CONTINUE
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						SAVE &amp; CONTINUE
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'btnSubmitRI']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="67e861da-3a3a-462c-a5c3-db39eae66c61">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAB9AcIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAeOgprdacOgprdaAEooooAKKKKACiiigAooooAKKKKACi
+iigAooooAMH0owfSn0UAMwfSjB9KfRQAzB9KMH0p9FADMH0owfSn0UAMwfSjB9KfRQAzB9KMH0p9
+FADMH0owfSn0UAMwfSjB9KfRQAzB9KMH0p9FADMH0owfSn0UAMwfSjB9KfRQAzB9KMH0p9FADMH0
+owfSn0UAMwfSjB9KfRQAzB9KMH0p9FADMH0owfSn0UAMwfSjB9KfRQAzB9KMH0p9FADMH0owfSn0
+UAMwfSjB9KfRQAzB9KMH0p9FAAOlNbrTqa3WgBKKKKACiiigAooooAKKKKACiiigAooooAKKKKAH
+0UxZY2OFkQn0DU+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKxI9VvZV3KltjOPmYL/N
+qlySNIU3NN32Nuisb+0b/wDuWn/fwf8AxVH9o3/9y0/7+D/4qlzor2X95fejZorG/tG//uWn/fwf
+/FUf2jf/ANy0/wC/g/8AiqOdB7L+8vvRs0Vjf2jf/wBy0/7+D/4qj+0b/wDuWn/fwf8AxVHOg9l/
+eX3o2aKxv7Rv/wC5af8Afwf/ABVH9o3/APctP+/g/wDiqOdB7L+8vvRs0Vjf2jf/ANy0/wC/g/8A
+iqP7Rv8A+5af9/B/8VRzoPZf3l96Nmisb+0b/wDuWn/fwf8AxVH9o3/9y0/7+D/4qjnQey/vL70b
+NFY39o3/APctP+/g/wDiqP7Rv/7lp/38H/xVHOg9l/eX3o2aKxv7Rv8A+5af9/B/8VR/aN//AHLT
+/v4P/iqOdB7L+8vvRs0Vjf2jf/3LT/v4P/iqP7Rv/wC5af8Afwf/ABVHOg9l/eX3o2aKxv7Rv/7l
+p/38H/xVH9o3/wDctP8Av4P/AIqjnQey/vL70bNFY39o3/8ActP+/g/+Kq1pd7LdtMsyxgxkD5Px
+9/ampJuwnSaTldO3Zl+iiiqMgprdadTW60AJRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBmWP
+/H2n4/yNa1ZNj/x9p+P8jWtUx2MqPwhRRRVGoUUVFdStDbtIgBI9aFqJuyuS0VD/AKSEckxFsfLg
+H/GmR3JmeNYgORl8/wAPt9adg5izRVZZZ5Fcp5Y2OV+YHoKW0kmmjWSTy9rDgKDmjlFzaliiiikU
+FFFFABRRRQAVyEf3a6+uQj+7Wc90XL+BL1X6jqKKKk4AoqxZQLcTFHJwFJwvU+wpwt45btIYllQH
+7/mYyKdh20uVaKvfY4jeLEHby5E3Rt7470yG1RoVaUsGeUIoH60WDlZUoq3e28cGQkc4IbG58bT9
+OKfZWcU8JeRn4bB2kAKMdTmlYOV3sUaKVgAxAORng+tW5YLW3xHOZWl25OzGB7c0AkU6KueRbwxR
+NcNKWkG4BMcD8alj0+M3EkbyHYEDIw9+madmHKzOoq39lSKF3n35STYQpHTFSSW1qogC+dmbBGSO
+OfpSsPlZQorQj0+OQ3Ch2DI+1MkYP1pkNmj/AGfeXBkdlYemKdg5WUqKsw26ObjJb90pK49qlktI
+o7dH8u4YtGG3LjaD78UraXFyso0UUUCCtTw9965/4D/WsutTw9965/4D/WhfEjsw3wT9F+Zs0UUV
+sAU1utOprdaAEooooAKKKKACiiigAooooAKKKKACiiigAooooAzLH/j7T8f5Gtasmx/4+0/H+RrW
+qY7GVH4QoooqjUKr36l7R1VSx44Az3qxRTTs7iaurFSJo4kkaC3kU46FCM0kUUltKrHL+b/rMDOG
+9fpVyinzC5SvaqypNuUjMjEZHWlslK2kasCCByCKnopNglYKKKKRQUUUUAFFFFABXIR/drr65CP7
+tZz3Rcv4EvVfqOoooqTgJIDEHzMZAAODHjINXjqES/Miu7qmxWkAOfXNZtFFxqTWxckvRJFEdgWW
+J8rtGFxS3F7HJdQuisscZ3Ed85yapUU7sOZlq8mhmJaN5iS2dr4wP1qW1vYooI0fzVKE5CAEOD65
+qhRRewczvcs3s6TyI0QZVVQoUjp9KfNPa3GJJRKsu3B2YwTVOilcOZlwyxSQW/2yGeM7PkZduHXj
+39xSveq7TnaQHjCIB2x61JNbSXVtpqREBhbE8jPZPcVlE3CFBJCTujEuV7Ie/etGn0NZRfQ0Z71Z
+rFYmU+bkZbscUx7lGNrgN+5ADe/PaqtFZ3MuZlyS7UrPs3BnkDqfTFSS6irNbyKhDxtucdie+Kz6
+Kdx8zLrXNuiTeQspeUYO/GADRLcwSwIpadWWMLgY2k/nVKilcOZhRRRQSFanh771z/wH+tZdanh7
+71z/AMB/rQviR2Yb4J+i/M2aKKK2AKa3WnU1utACUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+APooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACsz+wrX/AJ6TfmP8K06KTSe5cKkofC7G
+Z/YVr/z0m/Mf4Uf2Fa/89JvzH+FadFLkj2NPrFX+YzP7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g
++sVf5jM/sK1/56TfmP8ACj+wrX/npN+Y/wAK06KOSPYPrFX+YzP7Ctf+ek35j/Cj+wrX/npN+Y/w
+rToo5I9g+sVf5jM/sK1/56TfmP8ACqjaannTLHHI6QsAx84BjkA8Dbjv61vVSvoGjY3lsH85cbkT
+pIAecjuQM4o5I9g+sVf5h1hEDa2cpzuS3C4+oX/CobuySG1nmVmylm0IB9AM5+tXYJ4riMPC6uvs
+elV9VlVbKSIMPNmHlomeSW4FUYEH9hWv/PSb8x/hR/YVr/z0m/Mf4Vp0VPJHsb/WKv8AMZn9hWv/
+AD0m/Mf4Uf2Fa/8APSb8x/hWnRRyR7B9Yq/zGZ/YVr/z0m/Mf4Uf2Fa/89JvzH+FadFHJHsH1ir/
+ADGZ/YVr/wA9JvzH+FH9hWv/AD0m/Mf4Vp0UckewfWKv8xmf2Fa/89JvzH+FWrKxist/lM534zuI
+7f8A66s0UKKRMq1SSs2FFFFUZBTW606mt1oASiiigAooooAKKKKACiiigAooooAKKKKACiiigB9F
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBROl
+wrcvPDJLC8nL7CCCc5zyDSwaXbw3AuDvknBJEjnkcY6DA/SrtFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABTW606mt1oASiiigAooooAKKKKACiiigAooooAKKKKACiiigB9FFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFNbrTqa3WgBKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5754ec7c-8058-47f7-b370-49a00d15a67f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e5ecabdd-9cab-4223-983b-018025b8a85f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'btnSubmitRI']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="2f361282-f762-4466-b5d7-be44eed92e36">
+			</arguments>
+		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="de8cb2ba-396f-4ceb-996c-1ed282a38b03"
+		waitaction="Exists"
+		waittimeout="35000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e23a6123-0923-4f54-8875-a3184192846b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//span[#'select2-ddlClassification-container']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GL_RiskLevel_Submit.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

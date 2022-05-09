@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ce76a3a8-4155-4f4f-b5b5-ddba3042c8bc"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Agent_SignOut"
+	namespace="Sid_FCGAProject.Common">
+	</codegen>
+	<variables>
+		<var
+		id="9b76faa5-390c-4d59-83d4-365718b8228a"
+		name="Status_Reason">
+			Agent SignOut
+		</var>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c5924b82-cba7-44fd-ad3f-5ed29337dddf">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d27378c1-b31c-4e8e-9cf0-49eebfc2c1d9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//a[#'lnkSignOut']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="402258d3-5464-4662-b530-72f1a502a41d">
+			</arguments>
+		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6581cadc-acf6-4a95-be74-e7b733ad80cd"
+		sx="288"
+		sy="23"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cecc433e-7e25-48ab-8fa3-7b7243947b37"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="275,0,45,44"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename&gt;'https://qawinston.fwcins.']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename&gt;'https://qawinston.fwcins.']/button[@accessiblename='Close']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="aabff1ab-cab8-4f1c-9ef4-a28e6241cd40">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="Agent_SignOut"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="Hardclosebrowser"
+		namespace="Sid_FCGAProject.Common"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="786dd1b9-be55-496e-92bb-540833e2ce99">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Agent_SignOut.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

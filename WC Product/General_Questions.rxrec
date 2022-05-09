@@ -1,0 +1,2798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="416d283b-eb5a-4f8f-b1fb-9552e9d1cc8b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="General_Questions"
+	namespace="Sid_FCGAProject.WC_Product">
+	</codegen>
+	<variables>
+		<var
+		id="1602449f-643d-413c-b76c-5e061e09146b"
+		name="Status_Reason">
+			General Question
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3484aec1-99ee-4d08-afab-a2298b8b4480"
+		sx="1234"
+		sy="424"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2b7565ed-32ed-407c-8288-d52264732bda"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,408,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[1]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="5ba67548-e762-4d9a-b207-37a12c2e7dd4">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="00d01f62-0c0c-40ed-b8eb-c8c81f9aa234"
+		sx="1397"
+		sy="426"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274a9064-4924-4571-aff8-ebb69bb016f8"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1389,408,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-1
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[1]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="a2032621-942a-48aa-b1f0-df1a1038e203">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d62f7d0c-61ab-4cf9-b4bc-6152e4710f96"
+		sx="1237"
+		sy="514"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="39b574d8-463a-4036-94ac-ce86dcfde926"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,491,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio1
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[2]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9fbfe5ce-efe9-403a-99a9-1d84aae8d9ef">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABnALsDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaD2o
+4o44oAKKOKOKACijijigAoo4o4oAKKOKOKACijijigAoo4o4oAKKOKOKACijijigAoo4o4oAKKOK
+OKAA0UHFHFABQe1FB7UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAAaK
+DRQAUHtRQe1ABRRRQAUUUUAFFFFABRWJYQXN5CZPt0qYbbjJPYe/vVn+zbn/AKCMv6/41Ck30OiV
+GEXZz/BmlRWb/Ztz/wBBGX9f8aP7Nuf+gjL+v+NO77C9nT/n/BmlRWHNHJDKY2v7gkeg/wDsqZl/
++f8Aufy/+yq1Co9eUi1FfbX3M36KwMv/AM/9z+X/ANlVnTWlGovE88kqiIMNxPfB6Z96TUo/ErDU
+ISTcJXt6mtRRRQZBRRRQAUUUUABooNFABQe1FB7UAFFFFABRRRQAUUUUAZWjSLHYOzHjzD/IVfBu
+X5VEQf7ZOazdDG/5T0Vi2PfArbqYfCjbEfxZFUyyxczoNv8AeToKmBBGRyKkIDAgjIPWqtrwjJ/c
+cqKoxMzUP+P2T8P5Cq9aNzbCedzGTvDAOD6YHNVzbK7MY3VYw20M56n8K74TXKkccou7ZWq5Yf8A
+IWf/AK4L/Jaj+xyAEuyRgNt+Y96ksP8AkLSf9cF/ktYYlppW7nXhE1z37fqjWooornGFFFFABRRR
+QAGig0UAFB7UUHtQAUUUUAFFFFABRRRQBjaOfKh84/d3lW9uBW4CGAIOQe4rFgsNQt4zHFPCqk5I
+6/zFKtlqS/duY1+hI/pURdlax1VYRnNyUlr/AF2LFvezgQvcmHZNCZAEUgg/LxyT/eqxbKViy3DM
+Sx/GqKW4uY9NQuyYtSwKkg/wehqgr6jAFEV4WH2YXLeYMn3GTmtDlNCaYQ305OfmTaMeuBUVvdCO
+AxM0ifNkMlEmnX8rl3miLHqf8imf2Xe/89YvzP8AhWqrQtZpg8M73U1+P+RNDdRo7MzzMGPKkAhh
+70liQdYkIGAYV4/Bai/su9/56xfmf8KtWFlcQXTTTujZTb8v4Y7e1Z1ZxnblTNqVP2SleSd10NGi
+iipMQooooAKKKKAA0UGigAoPajFGOlABRRijFABRRijFABRRijFABVDfLJezxC6MTqVMUZVcMNoP
+cZPIPQ1fxVe9tjcQ/u9izIQ0bsPunIPXqM4xQBJZw+XaW6uoEkcQQ+o4GR+lRX8MS2Fy6xqGFuyA
+gdFwePpSWepw3LPGQ0c0Zw6EZwe/I96gv76K4J06AlppvlJxgKO55xnjNAGjRRijFABRRijFABRR
+ijFABRRijFABRRijFAAaKCKMUAFB7UUUAFFFFABRRRQAUUUUAFFFFAEUttbzNumgikYDGWQE4p0U
+MUKlYY0jUnOFUAZoooAfRRRQAUUUUAFFFFABRRRQAUUUUABooooA/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a07c582f-86a0-4a9b-a891-383e9a7533bd"
+		sx="1398"
+		sy="511"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7d745c38-b339-4090-bbcc-0fc8c99ac93f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1389,491,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-2
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[2]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="2321f87a-edaa-4325-8572-8444bf582893">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0597b987-e08c-4ec5-8568-7d8ddd08ca70"
+		sx="1235"
+		sy="570"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="11a70053-3338-4f06-9203-f8f4fc1d6d13"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,553,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio2
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[3]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="93762fc7-af53-4574-ad56-6e0bccd4717d">
+				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
+/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6b77ebeb-22a1-428a-b690-0ead43bade3c"
+		sx="1383"
+		sy="575"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="337cc156-deba-450b-9de1-602882322c2d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,553,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-3
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[3]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="fa92f951-6003-4af3-b248-49e70f2f2265">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5b967de1-434a-47b2-bbac-308ab9f05694"
+		sx="1401"
+		sy="658"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="63d08d57-0411-4130-92d7-ce66e48f45a1"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1389,636,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[5]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="530f4ce4-3eeb-4385-9b13-14bdce6917ba">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="08c39b46-acbf-4785-abcd-c28a5a119b04"
+		sx="1231"
+		sy="653"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e9846a6f-a0ed-4a8e-bce1-538e93f7c826"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,636,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio4
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[5]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="5060fd38-5a57-4429-86e7-aff755162d24">
+				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
+FFFABRRRQAGiiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="719fce7a-4ee7-4dab-b103-bfd834f549f3"
+		sx="1232"
+		sy="709"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e1b933d6-6d7d-4af4-a010-800362593c65"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,698,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio5
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[6]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="0417c41f-58bd-4d77-8791-eb442a40c464">
+				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
+UAFFFFABRRRQAUUUUAFFFFAAepooooA//9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9a98d6ca-a3d2-46de-b625-e146b384bd79"
+		sx="1399"
+		sy="716"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6d82c2e0-c6f3-4554-a733-a7c7ba6a4856"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1389,698,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-6
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[6]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="82d184d8-846b-4fcd-8401-a0710b6949ca">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5cf7288a-ae6d-4d35-9ac7-bac7ddd24a8d"
+		sx="1231"
+		sy="799"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="608e040e-dc81-4bd6-b2a1-1add810b4051"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,781,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio6
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[7]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c6d7de3f-ba70-4d6b-a875-503db6d84efc">
+				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
+KKKACiiigAooooADRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c642788c-1680-4e31-9049-4e8597d6f9e6"
+		sx="1383"
+		sy="797"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0135e51b-fe47-4064-b555-4d5f26e60f39"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,781,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-7
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[7]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="386c8e01-92a3-481c-bec7-c87bafedaf95">
+				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
+UUAFFFFABRRRQAUUUUAFJ6fWiigCSiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a44b5a40-7b19-4612-aa4d-5db1d357ecf8"
+		sx="1234"
+		sy="860"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d48921ec-2618-48b0-b07e-5dcd58881604"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,843,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio8
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[9]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9b09f53d-01b6-4509-84ed-3c50fdd09871">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABSALsDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaDRg
++lBB9KACijB9KMH0oAKKMH0owfSgAoowfSjB9KACijB9KMH0oAKKMH0owfSgAoowfSjB9KACijB9
+KMH0oAKKMH0owfSgAoowfSjB9KACijB9KMH0oAD1NFBBz0owfSgAoNFBoAKKKKACiiigAooqG8/4
+8p/+ubfyoGld2JqKxbHS4Li0SV3kDNnOCMdSPSrH9i239+X8x/hUJt9DeVOnFtOX4f8ABNKis3+x
+bb+/L+Y/wo/sW2/vy/mP8Kd5dhclL+b8P+CaVFZv9i239+X8x/hR/Ytt/fl/Mf4UXl2Dkpfzfh/w
+TSorN/sW2/vy/mP8Kbo6CK4vI1zhXCjPsTRd3s0Dpw5XKMr28jUoooqjAKKKKACiiigAPU0UHqaK
+ACg0UGgAooooAKKKKACobz/jyn/65t/KpqhvP+PKf/rm38qT2Kh8SKunS7NNgVV3O27C/iatiK4b
+kzKh9AuapaGN0OT/AAjA/EmrtzPLHNHFDCsjOrMdz7cAY9j60R2RVb+JL1Y1nlgIM2GT+8vb61N1
+pIXF1ZpIV2iWMNjOcZFR2hLWyE+mKZmTUVSmnlileH7zyf6k46ev5daJb9YHZDtYxgbyzhSfoO9A
+F2s3S/8Aj9vv+un9WqyLovcmJEU4xnc+CQe4GOaraX/x+33/AF0/q1S90bU/4c/l+ZpUUUVRiFFF
+FABRRRQAHqaKD1NFABQaKDQAUUUUAFFFFABUN5/x5T/9c2/lU1Mmj82F4843qVz6ZFJ7FRdpJmfp
+Z8i0ilIyjAhvb5jzV0sr6jAVYEeTJ0+qVl3NjNZ2u5b51QMoxggDLAevvViwsZ7XUsySeahiYBgD
+1yvFKN7WaNKqg5OSle5VzqENlbtDcgp9mMpRlXooXjpnv6/jVzSJ5pYNlxGqOFV129CjZx368Grp
+tYTCItvyiMxAZP3Tjj9BVCazd73y4Lh4FigjX5c8jLY7+1U3oZRSbs3YuyQ754pN2PLzxjrkUxrd
+xM8kMoTfjcCu7n1FVf7Nuf8AoIy/r/jR/Ztz/wBBGX9f8am77G3s6f8AP+DLMts00qs8i7VYMBs+
+YY981W0v/j9vv+un9Wo/s25/6CMv6/41NY2RtGlZpTIZCCSRj19/elq2tCvcjCSUrt+vcuUUUVZz
+BRRRQAUUUUAB6mig9TRQAUGj8aD9aACij8aPxoAKKPxo/GgAoo/Gj8aAEZVdSrAMpGCCMgiqEUqa
+ZK0MxKWrkeSxJIB7qT25ya0PxqOe3iuIzHMiup7EdPp6GgB73EMcZkeVFQDOS1VLOUXN1cXMfMJ2
+xof723OSPbJ/Q07+zbUgBldlHRWlcj8icVYjjSJAkaqijoqjAFADqKPxo/GgAoo/Gj8aACij8aPx
+oAKKPxo/GgAoo/Gj8aAA9TRQevWj8aACg0UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFAAepooooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="069f8a62-3a00-438f-8ed6-448ca15521d7"
+		sx="1379"
+		sy="868"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2d9c430a-09ba-4e98-93bb-d0afc4c255a8"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,843,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-9
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[9]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="46e4f50e-97ac-4e27-beb9-80ccdb6a6270">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f0dca4fe-1988-40fe-8f28-696c9a8cc9df"
+		sx="1234"
+		sy="149"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c1994589-5661-4044-90be-ea365ac165fe"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,131,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio10
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[11]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="0ce0bbcc-2bbc-4370-b2a6-9616f4c760cb">
+				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
+UUUAFFFFABRRRQAUUUUAB6miiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3f3354dc-cb62-4645-85d2-24d71b0d003b"
+		sx="1386"
+		sy="148"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c758cb04-c8df-4d4c-839c-61af3db24bf3"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,131,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-11
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[11]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c3b6c55c-de79-4fa6-a2c6-2acbc36174e2">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c1344336-fcb0-4c9e-a66b-930386006a8e"
+		sx="1233"
+		sy="210"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="37c3f306-d3d5-40bb-a102-db353537b4d5"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,193,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio12
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[13]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="889e4758-09cd-47d0-86d9-75f4c7a6624b">
+				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
+APU0UUUAf//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="963253a6-7d8f-4ced-b756-0a896fdb073d"
+		sx="1382"
+		sy="209"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1ad363a8-52f3-4179-a6e5-0c42ccc3c76d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,193,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-13
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[13]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="054bb53a-8c1f-4e66-9a2f-6e2d0a75c553">
+				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
+KKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="98314ad5-0b67-48c4-9caa-06a1187d0b35"
+		sx="1230"
+		sy="270"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f5b95637-c111-4ea0-97fb-4a89d1ddde8a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,255,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio14
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[15]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="be941be4-41cc-4bbf-bebe-40443d4047d2">
+				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
+PU0UUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="48f8a4c7-b2f3-4825-9ef2-2c2dc195f419"
+		sx="1382"
+		sy="274"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3b9d208a-973a-4016-95e1-9718e4b8ffb1"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,255,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-15
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[15]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="63d53af9-f86a-4906-b8d2-cfd5551104c5">
+				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
+KAJKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c5856257-d8ad-445b-bb18-7b6767cb4050"
+		sx="1235"
+		sy="338"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6123e5e8-eaa6-45af-b328-4eb459f74e12"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,317,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio16
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[17]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c4bb6d4b-b8a4-4537-9878-08010f3166ea">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e6ca7a7a-7bda-4376-84fd-0d48f1c26d3d"
+		sx="1382"
+		sy="335"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="80fe6a3a-64df-45b4-b63f-30163f2aeeee"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,317,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-17
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[17]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="e4176c7f-af30-4979-bc25-a69f59e6ecfb">
+				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
+KKACiiigAooooAKT0+tFFAElFFFAH//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4cfe70bb-9e44-4fed-991d-f620ba1faf41"
+		sx="1236"
+		sy="400"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f5814e17-7429-462b-a9b2-5f38eaff2092"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,379,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio18
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[19]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="fbd1eb0a-272a-4279-a9fe-47869b87b7fd">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="98d7801d-870e-4a5b-873f-0567328cf443"
+		sx="1389"
+		sy="397"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c60a09f4-5aac-4e8d-bae8-beeb26829afc"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1371,379,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio-19
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[19]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="91cc8216-731e-49e0-88a1-cc69ae614cfd">
+				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
+ooAKT0+tFFAElFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cd763dfe-e997-4e82-a997-c0b3874147db"
+		sx="1240"
+		sy="458"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f5099ec3-e912-4bf4-b09d-c8856c1f945a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="1224,441,54,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yes
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio20
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[21]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="4ac6bd71-f08d-44f3-a256-79ee4d317a80">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cd763dfe-e997-4e82-a997-c0b3874147db"
+		sx="1240"
+		sy="458"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6b690588-3831-4a7a-b5f7-c358fc3d8f2e"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[21]//label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		General_Questions.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b6b9bd60-e9a0-4e9e-890d-12326de81e89"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UW_StateandClassCode"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="f233500a-26cf-4c9c-94fa-a0a1cb44b76b"
+		name="UW_StateName">
+			Florida
+		</var>
+		<var
+		id="78c04bde-cc7d-46cd-b729-3332182b10d6"
+		name="UW_ClassDesc">
+			0005
+		</var>
+		<var
+		id="d3f5c702-2a3b-4c36-b997-a7cc2288010b"
+		name="Status_Reason">
+			UW State and Class Code
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="UW_StateandClassCode"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="MergedUserCodeMethod"
+		namespace="Sid_FCGAProject"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="5836e92d-b476-4219-9465-5c0cf24595d8">
+				<argument
+				argname="spantagInfo"
+				id="e40a5ab5-4c8f-41d3-9675-de1b6dbe4acc">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="f5075a86-54db-41e9-8d8f-07551b25c184"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table[2]/tbody[1]/tr[1]/td[1]//span[@id='select2-ddlState1-container']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="inputtagInfo"
+				id="7d4cba8e-7ce0-48b8-93ec-15a56ebf5933">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="a18acdde-8230-415e-a013-0d5783482d6a"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']/body/span//input[@type='search']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="inputtagInfo1"
+				id="1b118fcc-993d-412e-8838-9e5c8bd4c1f8">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="ab2c7d45-66f5-4923-9abf-79775c6e534a"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']//input[#'txtClassCodes1']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="divtagInfo"
+				id="cfd4a571-dcab-4ed5-8643-ae97194e268c">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="d9fc0e76-5245-4372-96b1-fdcba8e60ee3"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table[2]/tbody[1]/tr/td[2]/span/div/?/?/div[@class='tt-suggestion tt-selectable']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="spantagInfo1"
+				id="b0ce8203-54f7-4180-8408-cebc9a7f0f4a">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="df64dd56-89d2-48dd-88a2-46b004cc54b3"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table[2]/tbody[1]/tr[2]/td[1]//span[@id='select2-ddlState2-container']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="inputtagInfo2"
+				id="975d09ce-5491-4d99-a583-001330cb3c63">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="449fffec-6f1b-4d5c-a1ad-9c0bfea7e976"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table[2]/tbody[1]/tr[2]/td[2]/?/?/input[@name='txtClassCodes']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="divtagInfo1"
+				id="1991c7a6-4ad9-49f3-bc6b-ada9c9b3ea95">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="71b6bba0-9a1c-4de4-a86a-540991ed55c7"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table[2]/tbody[1]/tr[2]/td[2]/span/div/?/?/div[@class='tt-suggestion tt-selectable']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="fc031a08-8cfd-4e34-bbab-00cb85216fa5"
+		sx="1396"
+		sy="638"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e91c3aaf-8c25-439b-9dee-e350dbec3d47"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="inputtag"
+				rect="1370,620,122,33"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-success float-right
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						btnContinue
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-success float-right
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						CONTINUE
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						CONTINUE
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'btnContinue']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="20279e95-c67f-4d87-8b57-fdbd9c16b1c3">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAE/AXoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KVetJSr1oAdRRRQAjdKbTm6U2gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApV60lKvWgB1FF
+FACN0ptObpTaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAClXrSUq9aAHUUUUAI3Sm05ulNoA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKVetJSr1oAdRRRQAjdKbTm6U2gAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigApV60lKvWgB1FFFACN0ptObpTaACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKAClXrSUq9aAHUUUUAI3Sm05ulNoAKKKKACiiigAooooAKKKKACiiigAooooAdtFG0UtF
+ACbRRtFLRQAm0UbRS0UAJtFG0UtFACbRRtFLRQAm0UbRS0UAJtFG0UtFACbRRtFLRQAm0UbRS0UA
+JtFG0UtFACbRRtFLRQAm0UbRS0UAJtFG0UtFACbRRtFLRQAm0UbRS0UAJtFAGKWigAooooARulNp
+zdKbQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA+iiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooARulNpzdKbQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQA+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooqtqF59igWTy9+W24
+zjsf8KTdioxcnZFmisz+07r/AKBs36/4Uf2ndf8AQNm/X/Clzo1+r1P6aNOisz+07r/oGzfr/hR/
+ad1/0DZv1/wo50H1ep/TRp0Vmf2ndf8AQNm/X/Cj+07r/oGzfr/hRzoPq9T+mjTorM/tO6/6Bs36
+/wCFH9p3X/QNm/X/AAo50H1ep/TRp0Vmf2ndf9A2b9f8KP7Tuv8AoGzfr/hRzoPq9T+mjTorM/tO
+6/6Bs36/4Uf2ndf9A2b9f8KOdB9Xqf00adFZn9p3X/QNm/X/AAo/tO6/6Bs36/4Uc6D6vU/po06K
+zP7Tuv8AoGzfr/hTrfU5JbtLeS1aEuCfmPse2PajmQnQqJXt+KNGiiiqMRG6U2nN0ptABRRRQAUU
+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
+pEdZEV0OVYZB9qWgAooooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="UW_StateandClassCode"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="MergedUserCodeMethod2"
+		namespace="Sid_FCGAProject"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d664184c-68f4-4e07-888f-3fe7020a6737">
+				<argument
+				argname="inputtagInfo"
+				id="c08cdaf8-fe2d-4611-a1b6-7d49ff3c41af">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="0f067357-25fb-4086-9c79-89c27d0b6546"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']/body/div[8]/div/div/div[3]/input[@name='CLOSE']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UW_StateandClassCode.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

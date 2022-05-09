@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="26fcae38-3741-48f1-8364-e00eaf6db373"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BM_CreditDebitFactor"
+	namespace="Sid_FCGAProject.WC_Product">
+	</codegen>
+	<variables>
+		<var
+		id="3be68e36-c366-46ed-98b0-fff5af70a323"
+		name="BM_CreDebtFactor">
+			1.34
+		</var>
+		<var
+		id="56394071-fb19-4633-9f3f-6e633c66cf17"
+		name="Status_Reason">
+			Benchmark Debit / Credit Factor
+		</var>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="55ff571c-edb8-4d0f-8c98-505c73388cd3"
+		sx="1651"
+		sy="280"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70c5d39e-66d9-4a98-9796-ceffbd4eb2b0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="1596,263,163,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control multiirpm
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtIRPM_4_0
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control multiirpm
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						1.00
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						irpm
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						1.00
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//tr[#'trCTRBody']/td[2]/div[4]//table/tbody/tr[2]/td/input[@name='irpm']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="259871e9-ab6c-4995-9a2a-5116aa79f80e">
+				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
+ZoooAUDHSiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a50e68a2-dfca-4e1f-abfb-767304b4ec05">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="BM_CreDebtFactor">
+				</binding>
+			</bindings>
+			<info
+			id="70c5d39e-66d9-4a98-9796-ceffbd4eb2b0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//tr[#'trCTRBody']/td[2]/div[4]//table/tbody/tr/td/input[@name='irpm' and @enabled='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				1.34
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BM_CreditDebitFactor.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

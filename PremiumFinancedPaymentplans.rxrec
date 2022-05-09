@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6e36ac43-b87d-4e30-b2bf-34d04e2fd49f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PremiumFinancedPaymentplans"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="c5543050-14c9-4ab6-b3da-3be76693516b"
+		name="Status_Reason">
+			Premium Financed Payment Plan
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="212de8f2-ad93-4fea-a825-a2f7a620b0bf"
+		sx="434"
+		sy="821"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a15b8923-db3c-47a1-b0c9-3e5d8ebf2e4a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="427,802,24,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio1
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[1]/?/?/label
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="f21d8346-85b8-412c-aac5-b1cafb6474ee">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABSAG0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKyb7
+/j7f8P5Ctasy8ika6crG5HHIHtTQmVaKf5E3/PJ/++TR5E3/ADyf/vk0xDKKf5E3/PJ/++TR5E3/
+ADyf/vk0AMop/kTf88n/AO+TR5E3/PJ/++TQAyin+RN/zyf/AL5NHkTf88n/AO+TQAyin+RN/wA8
+n/75NHkTf88n/wC+TQASfci/3P8A2Y0yp5IZSkeI34Xn5T6mo/Im/wCeT/8AfJpDNqmN1p9MbrSG
+FFFFABRUN5/x5T/9c2/lWXY6XBcWiSu8gZs5wRjqR6VLbvZG0KcXHmk7G1RWb/Ytt/fl/Mf4Uf2L
+bf35fzH+FF5dh8lL+b8P+CaVFY0dqlprUEcZYgoW+b6GtmhO5NSChazvcKKKKoyCiiigB9MbrT6Y
+3WgAooooAhvP+PKf/rm38qqadLs02BVG523YX8TVu8/48p/+ubfyqnoY3Q5PVRgfman7Rt/y5fr+
+jLgiuG5Myr7Bc0jNLAQZsOn94Dp9acl9bvOIVZt5YqPkYAkZyM4x2NTuoZGU9CMVRiZc3OvW/wD1
+zP8A7NWlWPGSdWtCf+eR/wDZq2KmPU2rbR9P8woooqjEKKKKAH0xutPpjdaACiiigCG8/wCPKf8A
+65t/KqWm7orOGZRuGCHA6/ePNaE0fmwvHnG9SufTIrHa0ngkMENxcvsQORGAAASfVh6Gpd73RvDl
+dNxk7alnzGFvbSQp5jG7lIUnGf8AWexqGfXWRGSa0kjLEqpU7gcHB6gVb06HfZ27byfKmkbLAgty
+479Ouak+w/6Tby7xiF5WIx13k/yzVGDKZCjWbTYQy+VwR0PDc1q1k6ZYMq2t01wXxGMKR0BXpnPv
+WtUxT1ubVXF8qT2QUUUVRiFFFFAD6Y3Wn01gc9KAEoowfQ0YPoaACql5FIpN3bOyyonKgbhIBztx
+657+9W8H0NGD6GgBtrJFLbpJDt2ONw2+/X9adNIsMLyuQFRSSTVFtOdL1rm1mMTP99CMqfwBHv8A
+nTX0x7iZZLud5ApBEajCnnuCTntQBZsVZbC3VgVYRKCCMEHAqejB9DRg+hoAKKMH0NGD6GgAoowf
+Q0YPoaAH0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PremiumFinancedPaymentplans.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

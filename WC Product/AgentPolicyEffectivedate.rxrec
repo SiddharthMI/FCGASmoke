@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="14da5f27-eca4-4247-a3be-4a9a63be8e0e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AgentPolicyEffectivedate"
+	namespace="Sid_FCGAProject.WC_Product">
+	</codegen>
+	<variables>
+		<var
+		id="f5d7a212-2337-4062-978e-250cc69523d5"
+		name="EffectiveDate">
+			07/29/2021
+		</var>
+		<var
+		id="8c0eb4fb-0bc8-40a2-a09e-07dd5e290d56"
+		name="StatusReason">
+			Policy Effective Date
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ae86f332-3b72-4670-9f89-0ad32147a8f0"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b7c0a5c9-fd17-4dee-82d2-7dd7a59cb9c1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtEffectiveDate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="509797ad-a25a-4afa-af41-f2ac0f84a90b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b7c0a5c9-fd17-4dee-82d2-7dd7a59cb9c1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtEffectiveDate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5be4c65b-3e1e-478a-8b62-19914c7fdabf">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="EffectiveDate">
+				</binding>
+			</bindings>
+			<info
+			id="b7c0a5c9-fd17-4dee-82d2-7dd7a59cb9c1"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="875,563,381,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtEffectiveDate
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						07/29/2021
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtEffectiveDate
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						07/29/2021
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtEffectiveDate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				07/29/2021
+			</AttributeValue>
+		</setvaluerecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c172162d-11c6-4489-a951-d4b71440c4a1"
+		sx="857"
+		sy="657"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="580663d7-1be9-43e7-9585-425a7b5c1e6d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="textareatag"
+				rect="425,605,845,146"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtDescriptionOfOprations
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						300
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtDescriptionOfOprations
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Maximum of 300 characters
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						6
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//textarea[#'txtDescriptionOfOprations']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="40700df4-5a09-478f-84d7-a87b1ceb32bf">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADDAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoFJKg
+kYOOR6UtMhjEUKRgkhFC5PU4p9ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBm/21bf3JfyH+NH9tW39yX8h/jWn5a+/5mjy
+19/zNTaXc356X8v4/wDAMz+2rb+5L+Q/xo/tq2/uS/kP8a0/LX3/ADNHlr7/AJmi0u4c9L+X8f8A
+gGZ/bVt/cl/If40f21bf3JfyH+Naflr7/maPLX3/ADNFpdw56X8v4/8AAMz+2rb+5L+Q/wAaP7at
+v7kv5D/GtPy19/zNHlr7/maLS7hz0v5fx/4Bmf21bf3JfyH+NH9tW39yX8h/jWn5a+/5mjy19/zN
+Fpdw56X8v4/8AzP7atv7kv5D/Gj+2rb+5L+Q/wAa0/LX3/M0eWvv+ZotLuHPS/l/H/gGZ/bVt/cl
+/If40f21bf3JfyH+Naflr7/maPLX3/M0Wl3Dnpfy/j/wDM/tq2/uS/kP8aP7atv7kv5D/GtPy19/
+zNHlr7/maLS7hz0v5fx/4Bmf21bf3JfyH+NH9tW39yX8h/jWn5a+/wCZo8tff8zRaXcOel/L+P8A
+wDM/tq2/uS/kP8aP7atv7kv5D/GtPy19/wAzR5a+/wCZotLuHPS/l/H/AIBmf21bf3JfyH+NH9tW
+39yX8h/jWn5a+/5mjy19/wAzRaXcOel/L+P/AADM/tq2/uS/kP8AGj+2rb+5L+Q/xrT8tff8zR5a
++/5mi0u4c9L+X8f+AZn9tW39yX8h/jR/bVt/cl/If41p+Wvv+Zo8tff8zRaXcOel/L+P/AMz+2rb
++5L+Q/xo/tq2/uS/kP8AGtPy19/zNHlr7/maLS7hz0v5fx/4Bmf21bf3JfyH+NH9tW39yX8h/jWn
+5a+/5mjy19/zNFpdw56X8v4/8AzP7atv7kv5D/Gj+2rb+5L+Q/xrT8tff8zR5a+/5mi0u4c9L+X8
+f+AZn9tW39yX8h/jR/bVt/cl/If41p+Wvv8AmaPLX3/M0Wl3Dnpfy/j/AMAzP7atv7kv5D/Gj+2r
+b+5L+Q/xrT8tff8AM0eWvv8AmaLS7hz0v5fx/wCAZn9tW39yX8h/jR/bVt/cl/If41p+Wvv+Zo8t
+ff8AM0Wl3Dnpfy/j/wAAzP7atv7kv5D/ABo/tq2/uS/kP8a0/LX3/M0eWvv+ZotLuHPS/l/H/gGZ
+/bVt/cl/If40f21bf3JfyH+Naflr7/maPLX3/M0Wl3Dnpfy/j/wDM/tq2/uS/kP8aP7atv7kv5D/
+ABrT8tff8zR5a+/5mi0u4c9L+X8f+AZn9tW39yX8h/jR/bVt/cl/If41p+Wvv+Zo8tff8zRaXcOe
+l/L+P/AMz+2rb+5L+Q/xo/tq2/uS/kP8a0/LX3/M0eWvv+ZotLuHPS/l/H/gGZ/bVt/cl/If40f2
+1bf3JfyH+Naflr7/AJmjy19/zNFpdw56X8v4/wDAMz+2rb+5L+Q/xo/tq2/uS/kP8a0/LX3/ADNH
+lr7/AJmi0u4c9L+X8f8AgGZ/bVt/cl/If40f21bf3JfyH+Naflr7/maPLX3/ADNFpdw56X8v4/8A
+AMz+2rb+5L+Q/wAaP7atv7kv5D/GtPy19/zNHlr7/maLS7hz0v5fx/4Bmf21bf3JfyH+NH9tW39y
+X8h/jWn5a+/5mjy19/zNFpdw56X8v4/8AzP7atv7kv5D/Gj+2rb+5L+Q/wAa0/LX3/M0eWvv+Zot
+LuHPS/l/H/gGZ/bVt/cl/If40f21bf3JfyH+Naflr7/maPLX3/M0Wl3Dnpfy/j/wDM/tq2/uS/kP
+8aK0/LX3/M0UWl3Dnpfy/j/wB1FVCQt0qLIzDpt3nK98kdxVuqMAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooADRmikXpQAtFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABSL0paKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKyfO1j/nhH+Y/xo87WP8AnhH+
+Y/xqebyN/Yv+Zfea1FZPnax/zwj/ADH+NHnax/zwj/Mf40c3kHsX/MvvNaisnztY/wCeEf5j/Gjz
+tY/54R/mP8aObyD2L/mX3mtRWT52sf8APCP8x/jR52sf88I/zH+NHN5B7F/zL7zWorJ87WP+eEf5
+j/GjztY/54R/mP8AGjm8g9i/5l95rUVk+drH/PCP8x/jR52sf88I/wAx/jRzeQexf8y+81qKyfO1
+j/nhH+Y/xo87WP8AnhH+Y/xo5vIPYv8AmX3mtRWT52sf88I/zH+NHnax/wA8I/zH+NHN5B7F/wAy
++81qKyfO1j/nhH+Y/wAaPO1j/nhH+Y/xo5vIPYv+Zfea1FZPnax/zwj/ADH+NHnax/zwj/Mf40c3
+kHsX/MvvNaisnztY/wCeEf5j/GjztY/54R/mP8aObyD2L/mX3mtRWT52sf8APCP8x/jR52sf88I/
+zH+NHN5B7F/zL7zWorJ87WP+eEf5j/GjztY/54R/mP8AGjm8g9i/5l95rUVk+drH/PCP8x/jR52s
+f88I/wAx/jRzeQexf8y+81qKyfO1j/nhH+Y/xo87WP8AnhH+Y/xo5vIPYv8AmX3mtRWT52sf88I/
+zH+NHnax/wA8I/zH+NHN5B7F/wAy+81qKyfO1j/nhH+Y/wAaPO1j/nhH+Y/xo5vIPYv+Zfea1FZP
+nax/zwj/ADH+NHnax/zwj/Mf40c3kHsX/MvvNaisnztY/wCeEf5j/GjztY/54R/mP8aObyD2L/mX
+3mtRWT52sf8APCP8x/jR52sf88I/zH+NHN5B7F/zL7zWorJ87WP+eEf5j/GjztY/54R/mP8AGjm8
+g9i/5l95rUVk+drH/PCP8x/jR52sf88I/wAx/jRzeQexf8y+81qKyfO1j/nhH+Y/xo87WP8AnhH+
+Y/xo5vIPYv8AmX3mtRWT52sf88I/zH+NHnax/wA8I/zH+NHN5B7F/wAy+81qKyfO1j/nhH+Y/wAa
+PO1j/nhH+Y/xo5vIPYv+Zfea1FZPnax/zwj/ADH+NHnax/zwj/Mf40c3kHsX/MvvNaisnztY/wCe
+Ef5j/GjztY/54R/mP8aObyD2L/mX3mtRWT52sf8APCP8x/jR52sf88I/zH+NHN5B7F/zL7zWorJ8
+7WP+eEf5j/GjztY/54R/mP8AGjm8g9i/5l95rUVk+drH/PCP8x/jR52sf88I/wAx/jRzeQexf8y+
+81qKyfO1j/nhH+Y/xo87WP8AnhH+Y/xo5vIPYv8AmX3mtRWT52sf88I/zH+NFHN5B7F/zL7zTooo
+qjAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooA//9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AgentPolicyEffectivedate.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

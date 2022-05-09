@@ -1,0 +1,107 @@
+﻿<repository
+id="5174f2b9-197d-4a41-9e24-4772f3abe837"
+name="FCGA_InsuranceRepository">
+	<codegen
+	classname="FCGA_InsuranceRepository"
+	namespace="Sid_FCGAProject.Project_Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6e2f37cd-3c5e-403b-b2fc-b51f4dbfd779"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="582d41b1-2de4-4475-b956-3473ad00c8bb"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain=$Agent_Url and @browser='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b62d517c-a82e-4405-a478-2cb254c6d8b9"
+		isrooted="True"
+		name="RestorePages"
+		refpath="/form[@title='Restore pages?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="7783c07f-d0e9-4186-bc88-8ad8c08c5bcf"
+			name="Restore"
+			refimgid="5bc41a55-ce16-4f6f-b3ef-5a0b0ac1ea11"
+			refpath="/form[@title='Restore pages?']/container/container/container/container[2]/button[@accessiblename='Restore']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Restore pages?']/container/container[@accessiblerole='Pane']/container[@accessiblerole='Pane']/container[2]/button[@accessiblename='Restore']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="934c1d7c-3334-40c0-ba13-1996a0177bba"
+			name="Close"
+			refimgid="cc7c090b-d918-4c47-aed5-950c22ecbb40"
+			refpath="/form[@title='Restore pages?']/container/container/button[@accessiblename='Close']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Restore pages?']/container[@accessiblename='']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Restore pages?']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANfSURBVDhPrZJdTFJhGMfP+ryoObNQs1qulaVb
+H8407PAlBzU0DBAslUjWtFWWXbS8yWgrymiZXmQ5FbHC1oeUmTpDsyxIBNtatshzyIo2XR/LSAOE
+89ThyEVbt/23Z+/N+/v93+19kP8WNYLMUickLHRIM9b1Z3HKe7axWk2ZLKtJsHXIhKV2PBYwT9kF
+KLMmZXWYHEFmh7CZBOEDCQnRfdncXU6ZsIPIzXxHSNPdhFgwTezA/CM5aZO4iOcayeY+svCZ+8rW
+rozlcrlzQjiCUPDCO0L2zjfSDLszN9OLS9NJXCwAXIyRhASbHhHzpvEcrm9ExJnCt7NGrRnJ+zWb
+VjNCOIJINfnrtGXiDqtM4KXagRIALskAvGD7NHFY8pEo4TvxvWyCULFxQsXCiSK0/W1eKue3Wj2L
+FsRd2Fku0+Q5DfkY+VqEgaO0GKy116H1hp003HrptbQZPe/uHPJ8vYF5Jm5zPD+N7LFPBrSqT5sc
+TQtWnJcZE2t3u0uPiqA/hwfmS1dBq3NC8ZUJKKp1Q8U1Fzx70gaTA7vAP4BRk+Yd72b1DTZsXksL
+YrSywVidyo9WF4J+TxY0t9hoOPucG4SVbsir/gH6Lgd8sx8E0pYOpD0tMP4QdQw0pmykBVFa6YsV
+elUgrrEIlGcUcME4DKrLbsii4KAgt8oNdQ+c8MV2eEZgSyPHulHC2pS8iRZEaiUdMXrl1HLdHohv
+UJLnTH1TR66O+4PNQXh//ZdA51Pz1OQLpZ+08YMC39hD1PK8eUs8LWBUSU5F65WuaJ0SljYpQXS3
+0l/e1UOeuIfD8dZRuNLdT76yarw+e3aAgoOC75972XVDLVtjaEFEbR4zqlnZE6lT+KiB5XoVbDCU
+AXqzAjiGk3Cxcx/53iIiAzTMJQN23iu3mS8bHpbPmxEcSglbUiMvYTQpXAxKQE9jIURR56r6QjD1
+Cslf1uDTebRg0syu0J/euIyG6ciR2eHSxJXh1dJSRqPCHtFQ8HVxQ4E3Vp/v194X+VwWgcc/yPtO
+N1s4JyqPrYkvSUqaG6JDoXZ7gSI1MkKnSF90SVbFqM59lHRZPGwy8hwfulDz5160bsLClwebk/6B
+/w61ngs0oqglamEc8yy2vp366+f1ifFDLYkxnTXb5oduhYIgfwD0+8wQUcC9ZQAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="7c590099-d14f-4fa4-9023-ece7b04c03dc"
+		name="Agent_Url">
+			https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html
+		</var>
+	</variables>
+</repository>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a280a9c3-05d1-4378-8bd6-b6c35b4666e5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GL_Quote_Excess_No"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="13;21"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="882a1659-6867-4c83-91e2-f495407d8a2c"
+		sx="430"
+		sy="663"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ab0ded7b-5778-4146-b3b4-27a05ba4fdfb"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="417,642,255,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No Excess - General Liability Only
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						radio_None
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//table[#'tblPolicyPremium']/tbody/tr[1]//label[@innertext&gt;'No Excess - General Liability']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="93088190-8c4e-4867-9511-9fe560fdf3bd">
+				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
+q0bI7qY128EfMPQ1T/sK1/56TfmP8KP7Ctf+ek35j/Ci8uwclL+b8P8Aglm1gYXE1w6eW0mAFznA
+/wDr1LPbrMVYlkdPuupwRVH+wrX/AJ6TfmP8KP7Ctf8AnpN+Y/wovLsHJS/m/D/glsWcflyqzOxl
+GGdj8xFPe3R5FclsqpUfQ/8A6qo/2Fa/89JvzH+FH9hWv/PSb8x/hReXYOSl/N+H/BJpbTeILcIf
+KiIJckdB2qGf/kYbb/rmf/ZqP7Ctf+ek35j/AAqW20qC2nWZHkLLnAJGOmPSk+Z9Co+zhdqV9Gti
+9RRRVnMFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADKKKKACiiigAooooAKKKKACiiigAXrT6
+YvWn0AFFFB6UAFFN3GjcaAKN1vsppLncrW8pXzlbgqeFyD+Wc+lXo0WONUQYVQAPpSNh1KsoZSME
+EZBFZ8FtfWkriGVJYD9xJGIKewODkYxQBZ1Rwml3JP8AzyYfmMVarMW0u5rpJru4HlowYQpyDjoc
+8d/btWjuNADqKbuNG40AOopu40bjQA6im7jRuNADqKbuNG40AOopu40bjQA6im7jRuNADqKbuNG4
+0AOopu40bjQA6im7jRuNADqKbuNG40AOopu40bjQA6im7jRuNADqKbuNG40AOopu40bjQA6im7jR
+uNADqKbuNG40AOopu40bjQA6im7jRuNADqKbuNG40AOopu40bjQA6im7jRuNADqKbuNFACUUUUAF
+FFFABRRRQAUUUUAFFFFAAvWn0UUAFB6GiigBlFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GL_Quote_Excess_No.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

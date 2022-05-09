@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8b4e7544-d1e8-4b2c-b669-0c5c86949a41"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GL_BackdatedEffdate"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="800b2f47-95af-43b4-b1ea-f1550b251ece"
+		name="GL_Backdated">
+			09/15/2021
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="81071af2-3d3b-4674-8e1f-64add00564f7"
+		sx="698"
+		sy="576"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f50081b-75be-46a1-a632-739d1189f13d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="labeltag"
+				rect="683,570,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						labelcheckbox
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labelcheckbox
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						chkEffectiveDateOverride
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&lt;'winston.fwcins.com']//div[#'dvEfectiveDateOverride']/div/label[2]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dc924088-9699-443a-8aa5-774a71fa8f1d"
+		sx="544"
+		sy="577"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b7c0a5c9-fd17-4dee-82d2-7dd7a59cb9c1"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="370,560,211,45"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtEffectiveDate
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						09/20/2021
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtEffectiveDate
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						09/20/2021
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&lt;'winston.fwcins.com']//input[#'txtEffectiveDate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="7ff65dac-98ba-4593-9ef2-838e0061b4d5">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABlAT0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKhunaO2kdDhgMg1NUF4pa0lCgkleAKGBDbyOdrNdrL8u
+TGqrnpUMU0hSWY+eWG7A/hH4VPaNGCii1dH24LmPHb1pIUcWM6lWDEvgY5NDBDbWYRW4klM7M2AA
+3O4/7IqzHco+/IaMoMsHGCB61Vmhka1tmCvmMDcq8N07e9CwCVJdizhym3Mvf2oAnW8VwSsMxXGQ
+2zg1HHdedZu8iSIApJZOPyp8EzMiwmCVGC4JK/L09agj3/2c8BikDqp/h4PPahgW4plaTyhu3BQ2
+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
+sT+6v5UbE/ur+VFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="31a68d74-edec-4049-ae53-38a6403fa717">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b7c0a5c9-fd17-4dee-82d2-7dd7a59cb9c1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'winston.fwcins.com']//input[#'txtEffectiveDate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence=""
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="0bec74f9-a55c-4468-be72-60188653c908">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="GL_Backdated">
+				</binding>
+			</bindings>
+			<info
+			id="b7c0a5c9-fd17-4dee-82d2-7dd7a59cb9c1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'winston.fwcins.com']//input[#'txtEffectiveDate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GL_BackdatedEffdate.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

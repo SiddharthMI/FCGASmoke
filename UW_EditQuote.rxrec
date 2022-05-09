@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="416f8b29-9672-46a9-a4b1-0e0bb2d48af1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UW_EditQuote"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="3a56ffef-edf4-4f8a-8508-6c01ebb0bf2d"
+		name="Status_Reason">
+			Edit Quote
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0f183632-d85e-429b-9e27-a11d8aac05d5"
+		sx="604"
+		sy="371"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3911deff-d377-4ac5-9d10-31646c8aa085"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="4"
+				prefcap="buttontag"
+				rect="543,346,132,37"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-success pull-left
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						WCEditQuote
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Edit Quote
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-success pull-left
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//button[#'WCEditQuote']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="e70fe701-6bf5-43de-a0ec-251140994b54">
+				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
+CiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="20000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UW_EditQuote.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

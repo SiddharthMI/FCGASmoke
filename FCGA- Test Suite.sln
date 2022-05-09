@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 10.1.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCGA Project Suite", "FCGA Project Suite.csproj", "{7FE7AB79-E677-4150-8D36-4D44BA0C686A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{2BFE92AE-670B-474A-8C07-A9995C4BFF63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE7AB79-E677-4150-8D36-4D44BA0C686A}.Debug|x86.Build.0 = Debug|x86
+		{7FE7AB79-E677-4150-8D36-4D44BA0C686A}.Debug|x86.ActiveCfg = Debug|x86
+		{7FE7AB79-E677-4150-8D36-4D44BA0C686A}.Release|x86.Build.0 = Release|x86
+		{7FE7AB79-E677-4150-8D36-4D44BA0C686A}.Release|x86.ActiveCfg = Release|x86
+		{2BFE92AE-670B-474A-8C07-A9995C4BFF63}.Debug|x86.Build.0 = Debug|x86
+		{2BFE92AE-670B-474A-8C07-A9995C4BFF63}.Debug|x86.ActiveCfg = Debug|x86
+		{2BFE92AE-670B-474A-8C07-A9995C4BFF63}.Release|x86.Build.0 = Release|x86
+		{2BFE92AE-670B-474A-8C07-A9995C4BFF63}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

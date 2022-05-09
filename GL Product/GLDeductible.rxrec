@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1260b168-a145-42b8-ab28-0db7ebad9e9a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GLDeductible"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="ebe59ff8-ea4a-4aee-b041-4b041901dac9"
+		name="GLAgDeduct">
+			$500
+		</var>
+		<var
+		id="90822a6a-0de3-4987-866c-c2f9f266b41e"
+		name="Status_Reason">
+			Agent GL Deductible
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="153;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c4d11192-e453-4c77-9c25-312dbbba8c14"
+		sx="1127"
+		sy="904"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bd518fff-c40d-46d3-95e1-c284c2105dbd"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="974,894,242,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						select2-selection__rendered
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						select2-ddlDeductible-container
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						$0
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						select2-selection__rendered
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						$0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//span[#'select2-ddlDeductible-container']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ee836cb0-7b56-4785-a17d-35e87951f315">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABrASYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAqmqGW4nzLIu0jbtY4HHpVyq7WoaR28yRd/wB4KQAaAIUvHMUQ
+43sDltpPTjoKeLiZ/LRUVXYEncDgAe1StboQgUlCnClT0oa3DbD5jhkzhweeaAK9tK6bVwPnmYNU
+j3Lr5gCqWEgRfxHenfZECBQzjDbw2eQaX7JHsdSXO5txJPIPrQBHMbhTCC6As+OFOOn1qK5Py3Q2
+jI2ZI71ZNuGQK0khIbcGyMg0Nao4cMzHzMbufSgCG4kk8ueKXbnyywK0NcurbIx9xAT8hbJ9OOlS
+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
+QAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="$500"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="5bf4fb32-22ff-4cf9-b571-ccf641792322">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="GLAgDeduct">
+				</binding>
+			</bindings>
+			<info
+			id="a18acdde-8230-415e-a013-0d5783482d6a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']/body/span//input[@type='search']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="1a1c9197-fc02-45c8-9252-bc51a8313e7a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a18acdde-8230-415e-a013-0d5783482d6a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']/body/span//input[@type='search']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GLDeductible.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

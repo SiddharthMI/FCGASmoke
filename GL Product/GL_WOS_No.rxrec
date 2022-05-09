@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="316a63c7-25a7-4c6a-ba85-8b3b845d8e3b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GL_WOS_No"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="4d89ef91-22df-4816-b009-b9e2cd9e1073"
+		name="Status_Reason">
+			GL Wavier of Surbogation
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ba5b069f-82bd-4fd9-9828-17bc388b810f"
+		sx="809"
+		sy="792"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="23e1e09b-c192-4ff1-9ed3-f1c42bd21cbe"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="labeltag"
+				rect="803,775,50,29"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						radio-label labletxt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						labletxt radio-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						rbWaiversNo
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//form[#'frmRisLevel']/div[1]/div[2]/div[6]/div[2]/?/?/label[@innertext='No']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="6c616c7a-8ee4-4092-92ea-651ca1fabaee">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABqASYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAqjK7q00Idtzsuw56A9f5Gr1RNAjTpMc7lGB6UAV4ZWkeIMxHl
+oTJz36c/rSpcs7bG2srISCFI6fXrUy20atKeT5v3qalqqkEu7FVKjJ7UARw3HlxpuVVTyty49uop
+DdS/Ku0B9gZvkY8ntx0qZrSN4o4zuxH096dJAHk3h2RsYyp6igCITzPKqIirmMOd+eOelLFO7zlH
+KJgn5CDnHrnvUqwqsokyxbbt59KaIB5quzu5XO0EjAzQAksknniGLaG27iW6YqtIzXJtwQoDMwKk
+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
+oAKKKKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GL_WOS_No.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

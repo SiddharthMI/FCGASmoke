@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="593593d5-16cb-4664-ac36-9733284812b4"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InlandMarineSave"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="28220f1a-823b-44eb-9b1d-bce365cc5477"
+		name="Status_Reason">
+			Inland Marine Save
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0de62bfa-a2fd-4d73-9a41-f644e3a6528a"
+		sx="1411"
+		sy="859"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0ee8bd0d-6cd7-4e9c-88c3-cbc566361720"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1314,842,173,33"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-success float-right ml-4
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						BtnSave
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-success float-right ml-4
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						SAVE &amp; CONTINUE
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						SAVE &amp; CONTINUE
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'BtnSave']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="75d5a3b7-90a6-4403-ad45-130630b11014">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABkAcIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKYepp9MPU0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFAD6KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooqH7Za/8/MP/fYoGk3sTUVD9stf
++fmH/vsUfbLX/n5h/wC+xSuh8kuxNRUP2y1/5+Yf++xR9stf+fmH/vsUXQckuxNRUP2y1/5+Yf8A
+vsUfbLX/AJ+Yf++xRdByS7E1FQ/bLX/n5h/77FH2y1/5+Yf++xRdByS7E1FQ/bLX/n5h/wC+xR9s
+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
+98H/AArqqKOTzD9z/J+LOUeC4UbpIJo0BG5th+Vc8np6VsWFiLe9E0MpmgaJgGOODkdx9DWnWZLK
+ukTM7qBaTMNoQY8tsdMehxnj3q4xsTJQveKsaBhiKBPLXaF2AY/h9PpxWJq0Lm/VIIWZUgQYRScD
+LYrWmvreGDznf5MZ4B5qHTZPtUk96MiOXCRg9wuefzJ/Khq6BWv7yujD+z3X/PrN/wB8H/Cj7Pdf
+8+s3/fB/wrqqKjk8yv3P8n4s5X7Pdf8APrN/3wf8KPs91/z6zf8AfB/wrqqKOTzD9z/J+LOV+z3X
+/PrN/wB8H/Cj7Pdf8+s3/fB/wrqqKOTzD9z/ACfizlfs91/z6zf98H/CtTQopYjcebE6btuNykZ6
+1rUU1CzuVzwUWoxtf1CiiirMgph6mn0w9TQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAPoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACkZV
+dSrAMrDBBGQRS0UAQLY2iMGW1gVlOQRGAQanoooAKKKKACiiigAooooAKKKKACiiigAph6mn0w9T
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAPooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ph6miigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="54b87a58-f17e-4b47-a65e-34d657c72133"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="05bc3a46-c45c-4a7c-a413-470a032ebdcb"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'BtnCSPSave']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InlandMarineSave.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

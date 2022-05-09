@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f060ae88-f120-45bd-abcb-c830b92d2742"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UW_BusinessnameandAddress"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="45440cb9-105e-4d64-b452-55debfc9a21e"
+		name="UW_BusinessInsname">
+			Autmfcga-222Sid
+		</var>
+		<var
+		id="783494e6-5dfe-460a-a10e-0401571655e9"
+		name="UW_legalEntity">
+			Corporation
+		</var>
+		<var
+		id="0ae982d8-df49-415c-8764-d7346165530f"
+		name="UW_DBAName">
+			Autmfcga-321Sid
+		</var>
+		<var
+		id="58aae864-983c-4c14-a343-7cb20b6e17a7"
+		name="UW_Address1">
+			Address1
+		</var>
+		<var
+		id="d53a1127-1fd0-430f-a4e7-9fc7d3425521"
+		name="UW_Address2">
+			Address2
+		</var>
+		<var
+		id="ecf207ec-995d-4781-8418-2e662557bb69"
+		name="UW_City">
+			Tampa
+		</var>
+		<var
+		id="3321c310-0aa3-4415-a17c-f719796d3bf5"
+		name="UW_Zipcode">
+			33604
+		</var>
+		<var
+		id="50b9ecce-098b-4fd2-af9f-366023d270ca"
+		name="UW_BusinessStartDate">
+			07/01/2021
+		</var>
+		<var
+		id="868f813a-c98c-4760-b1e9-4f14ed41955a"
+		name="Status_Reason">
+			UW Business Name and Address
+		</var>
+	</variables>
+	<recorditems>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="79f1c05f-204b-4ca1-99fe-af5861e8dd6b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_BusinessInsname">
+				</binding>
+			</bindings>
+			<info
+			id="eb6b6d57-67d4-4684-bac7-abe03ff493e0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="2"
+				prefcap="inputtag"
+				rect="155,541,468,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtBussInsuredName
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Autmfcga - 546454355Autmfcga - 546454355
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						nope
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtBussInsuredName
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Autmfcga - 546454355Autmfcga - 546454355
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onkeypress"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtBussInsuredName']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				Autmfcga - 546454355
+			</AttributeValue>
+		</setvaluerecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4fb3bea6-f9ec-453a-9f2c-a4ba36273517"
+		sx="1226"
+		sy="558"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b68cc75c-f138-41c9-9d58-f663ac97717a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="876,543,418,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						select2-selection__rendered
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						select2-ddlLegalEntity-container
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						-Select-
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						select2-selection__rendered
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						-Select-
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//span[#'select2-ddlLegalEntity-container']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="909c3e64-cfa2-4e78-9c2e-f8fb7e36537b">
+				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
+FFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Corporation"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="5e28e428-1896-4b1a-897a-e3734c03db22">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="UW_legalEntity">
+				</binding>
+			</bindings>
+			<info
+			id="a18acdde-8230-415e-a013-0d5783482d6a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']/body/span//input[@type='search']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="7223d53d-81ba-4387-8078-d0a25f6acf77">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a18acdde-8230-415e-a013-0d5783482d6a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']/body/span//input[@type='search']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="79f1c05f-204b-4ca1-99fe-af5861e8dd6b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_DBAName">
+				</binding>
+			</bindings>
+			<info
+			id="0295a318-f510-4c73-a246-c4cd0292a4e5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtDBAName']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				Autm DBA - 647657643
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="79f1c05f-204b-4ca1-99fe-af5861e8dd6b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_Address1">
+				</binding>
+			</bindings>
+			<info
+			id="38eff30d-9994-41a9-9cba-a802de4178a2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//div[#'GenralInfo']/div[1]/div/div[2]/div[3]/?/?/input[@name='txtAddress1']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				Address1
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="7f9e71b6-db09-4331-ad12-471a8130b847">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_Address2">
+				</binding>
+			</bindings>
+			<info
+			id="886b96fb-2983-445c-b290-b677ea13300c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="1"
+				prefcap="inputtag"
+				rect="864,741,420,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtAddress2
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Address2
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						nope
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtAddress2
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Address2
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//div[#'GenralInfo']/div[1]/div/div[2]/div[3]/?/?/input[@name='txtAddress2']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				Address2
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="79f1c05f-204b-4ca1-99fe-af5861e8dd6b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_City">
+				</binding>
+			</bindings>
+			<info
+			id="b445c3f1-828e-4897-a5d9-709b67de0ee2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtCity']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				Tampa
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="79f1c05f-204b-4ca1-99fe-af5861e8dd6b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_Zipcode">
+				</binding>
+			</bindings>
+			<info
+			id="e9b29168-82fb-46b4-b276-9119337400bb"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtZipCode']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				33604
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="79f1c05f-204b-4ca1-99fe-af5861e8dd6b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UW_BusinessStartDate">
+				</binding>
+			</bindings>
+			<info
+			id="13ca6263-b78d-47f8-b7e0-ee779c2ef8b6"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtDateBussinessStart']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				07/01/2021
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UW_BusinessnameandAddress.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

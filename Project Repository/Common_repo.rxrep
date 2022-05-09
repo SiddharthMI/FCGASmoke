@@ -1,0 +1,134 @@
+﻿<repository
+id="b34db228-48cd-410e-a9f0-b54161fac5f9"
+name="Common_repo">
+	<codegen
+	classname="Common_repo"
+	namespace="Sid_FCGAProject.Project_Repository">
+	</codegen>
+	<rootfolder
+	capname="host"
+	id="51ef24ff-d60d-4f02-8550-06169a5f31ae"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="False">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="bdb6190a-a9fa-4dd7-8f97-29827e934463"
+		isrooted="True"
+		name="RecordsView"
+		refpath="/dom[@domain='qawinston.fwcins.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="7242ee16-205e-462b-9330-5e90c0d96fb0"
+			name="Chrome_Closed"
+			refimgid="03a78b06-a1e6-4034-8fe4-684a1f272a72"
+			refpath="/dom[@domain='qawinston.fwcins.com']/body"
+			searchtimeout="30000ms">
+				/dom[@domain='qawinston.fwcins.com']/body
+			</item>
+			<basepath>
+				/dom[@domain='qawinston.fwcins.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="773e42af-daa3-4b58-b660-a4b72aba4cc5"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="83533821-e592-4c62-97c4-9bb4b8afe01e"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="webdocument"
+			id="9aa56d92-af24-42b8-93ea-0b9a955f3cec"
+			isrooted="False"
+			name="Class_Specific_Selection"
+			searchtimeout="0ms">
+				<item
+				capname="labeltag"
+				id="826eb148-5045-4293-8863-44bb2d79bd14"
+				name="Copy_of_Class_Specific_Q1No"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'myTable']/tbody//td[7]/?/?/label[@innertext='No'][$Iteration]
+				</item>
+			</folder>
+			<folder
+			capname="table"
+			id="e5f3ad36-a296-400c-a0f7-f07e2720cc18"
+			isrooted="True"
+			name="MyTable"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="00ff60ba-e545-47ca-bab5-ea1df9dc38c6"
+				name="Copy_of_Class_Specific_Q1"
+				refimgid="c1d9eefe-d955-45a2-b9f3-d864aa507b0b"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'fwcins.com']//table[#'myTable']/tbody/?/?/td[@innertext&gt;$ClassCode_CS][$Iteration]
+				</item>
+				<basepath>
+					/dom[@domain&lt;'fwcins.com']//table[#'myTable']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain&lt;'fwcins.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="0c1e36ea-c859-4769-8592-9645835e4c0c"
+		name="QA_Agent_Env">
+			https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html
+		</var>
+		<var
+		id="aab9529b-212f-49f5-982e-205dea44466e"
+		name="Iteration">
+			1
+		</var>
+		<var
+		id="731966be-356c-4696-abbc-07840ba06fa2"
+		name="ClassCode_CS">
+			91127
+		</var>
+	</variables>
+</repository>

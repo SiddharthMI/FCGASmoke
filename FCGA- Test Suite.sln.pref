@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{7FE7AB79-E677-4150-8D36-4D44BA0C686A}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>7ebd5026-56f4-4251-928d-34f9d46ba972</string>
+      <string>63f7bad5-db53-49c8-8b51-72d5356bf5a4</string>
+      <string>51991a6b-d01c-43ff-a7ef-40d0d19059b6</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution FCGA- Test Suite[FCGA Project Suite[]]]&#xD;&#xA;Solution FCGA- Test Suite\FCGA Project Suite\FCGA_Insurance.rxtst&#xD;&#xA;Solution FCGA- Test Suite\FCGA Project Suite\Endt_Request_Submit.rxrec" />
+  <StartupProject value="{7FE7AB79-E677-4150-8D36-4D44BA0C686A}" />
+</Properties>

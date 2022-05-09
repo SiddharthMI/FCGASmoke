@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="809a50e5-2d62-4e6d-8dc0-c358782520ea"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Close_Online_PaymentMethod"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="29;21"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="687ab472-13ad-413f-b2e8-4540796a8de4"
+		sx="1607"
+		sy="92"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f36fb9d1-2ce4-4a36-be2b-41e9ebc5e8c4"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="1578,71,59,37"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						press
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'FrankCrum General Agency TEST']/container[@accessiblename&gt;'FrankCrum General Agency TEST']/container[@accessiblename='Google Chrome']//button[@accessiblename='Close']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="11fbc3bf-4ccb-435f-aab7-23ba532da6a1">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADjARQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDeooop
+iCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKMjOM80UAFFAORkdKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigBGXcPQjkH0puGfhxgd/f/61PooAKKKKACiiigAoqTyx70eW
+PekMjoqTyx70eWPegCOipPLHvR5Y96AI6Kk8se9Hlj3oAjoqTyx70eWPegCOipPLHvR5Y96AI6Kk
+8se9Hlj3oAjoqTyx70eWPegCOipPLHvR5Y96AI6Kk8se9Hlj3oAjoqTyx70eWPegCOipPLHvR5Y9
+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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Close_Online_PaymentMethod.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

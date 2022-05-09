@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b600cd3e-a938-4974-be4b-ed10f89703e3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UW_SubmitandRerate"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="eaf8c663-c9bd-4237-b66d-d7329a93ee60"
+		name="UWStatus">
+			3
+		</var>
+		<var
+		id="31ba3126-7347-448f-9540-2e866815b195"
+		name="UWMessages">
+			Hello Agent
+		</var>
+		<var
+		id="c8a35c89-41b6-4f0d-8e81-b6899b800b0f"
+		name="UWReferralReason">
+		</var>
+		<var
+		id="b0ca5e25-161f-445e-8105-fce8a2550857"
+		name="Status_Reason">
+			UW Submit and Re rate
+		</var>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="789f7dda-dd87-48d4-ad64-d11a53d91066"
+		varname="UWReferralReason">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="15380dcb-8117-4a4c-9fbb-469a045c6c7a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//ul[#'ulReferralReason']/li
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23b1db25-82a4-48cf-bb8d-f0b3d360e915">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="UWReferralReason">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b22c5877-eb9c-4ff6-b32f-08ed9cb01c29">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="UWStatus">
+				</binding>
+			</bindings>
+			<info
+			id="37866025-b05c-4c53-83c3-7eff8d70fce5"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="selecttag"
+				rect="1625,743,154,37"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control w-100
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ddlCurrentStatus
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control w-100
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						3
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						ddlCurrentStatus
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//select[#'ddlCurrentStatus']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<AttributeValue>
+				3
+			</AttributeValue>
+		</setvaluerecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f89b88d8-3d90-4691-9def-13856f74877f"
+		sx="1478"
+		sy="527"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="262d2d13-29b9-44ad-a7b9-41a544da9957"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1410,510,135,31"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-primary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						btnReRate
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-primary
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Submit &amp; Re-Rate
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Submit &amp; Re-Rate
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'btnReRate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="e38864fd-a5b4-41e1-9eeb-932647674e81">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACZAaoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACmySRxLukdUGcZY4p1ZniD/AI8U/wCug/kaUnZX
+NKUOeaj3Lv2y1/5+Yf8AvsUfbLX/AJ+Yf++xWD+5/wCfaP8A76b/ABo/c/8APtH/AN9N/jV+yqeR
+HtsN3f3L/M3vtlr/AM/MP/fYo+2Wv/PzD/32Kwf3P/PtH/303+NH7n/n2j/76b/Gj2VTyD22G7v7
+l/mb32y1/wCfmH/vsUfbLX/n5h/77FYP7n/n2j/76b/Gj9z/AM+0f/fTf40eyqeQe2w3d/cv8ze+
+2Wv/AD8w/wDfYo+2Wv8Az8w/99isH9z/AM+0f/fTf40fuf8An2j/AO+m/wAaPZVPIPbYbu/uX+Zv
+fbLX/n5h/wC+xR9stf8An5h/77FYP7n/AJ9o/wDvpv8AGj9z/wA+0f8A303+NHsqnkHtsN3f3L/M
+3vtlr/z8w/8AfYo+2Wv/AD8w/wDfYrB/c/8APtH/AN9N/jR+5/59o/8Avpv8aPZVPIPbYbu/uX+Z
+vfbLX/n5h/77FH2y1/5+Yf8AvsVg/uf+faP/AL6b/Gj9z/z7R/8AfTf40eyqeQe2w3d/cv8AM3vt
+lr/z8w/99ij7Za/8/MP/AH2Kwf3P/PtH/wB9N/jR+5/59o/++m/xo9lU8g9thu7+5f5m99stf+fm
+H/vsVJHJHKu6N1cZxlTmsO0ht57lI3tkAbPRm9PrUulytBpE0iAErJ3/AOA1LUlJRfUv91Km5wb0
+7mzRWP8A2rP/AHI/yP8AjR/as/8Acj/I/wCNaeykcvt4GxRWP/as/wDcj/I/40f2rP8A3I/yP+NH
+spB7eBsUVj/2rP8A3I/yP+NH9qz/ANyP8j/jR7KQe3gbFFY/9qz/ANyP8j/jR/as/wDcj/I/40ey
+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
+igAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="810e6865-a628-4f09-b976-0439ea4f2e8b"
+		waitaction="Exists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0f067357-25fb-4086-9c79-89c27d0b6546"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']/body/div[9]/div/div/div[3]/input[@name='CLOSE']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		classname="WebLibrary"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ReportFullPageScreenshot"
+		namespace="Ranorex.AutomationHelpers.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="0698189f-f1d0-4371-8c75-0246f299d3d5">
+				<argument
+				argname="repoItemInfo"
+				id="15d5fd7c-5720-487c-975e-ebda04d2e639">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="41f8108e-2409-462f-96de-62d71c0935d3"
+					sourcename="RepositoryEditor">
+						<path>
+							/dom[@domain='qawinston.fwcins.com']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="8000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="badb5a68-0ab6-44b1-b0b4-34363aa22d55"
+		sx="1140"
+		sy="264"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0f067357-25fb-4086-9c79-89c27d0b6546"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1088,252,92,33"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-primary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-primary
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						CLOSE
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						CLOSE
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						CLOSE
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']/body/div[8]/div/div/div[3]/input[@name='CLOSE']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="10fcc930-a3fd-49d5-b81a-b0eda475bb0e">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="UW_SubmitandRerate"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_UWPolicy_Exit"
+		namespace="Sid_FCGAProject"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="488defa5-6e6a-429e-9844-c29e400ffa48">
+				<argument
+				argname="inputtagInfo"
+				id="3e8da16a-e421-488a-9715-cdb73ea9cfa9">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="933d0ad7-666a-48fa-abda-2d61fd6ebeb0"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain&lt;'winston.fwcins.com']//input[#'btnExit_Common']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UW_SubmitandRerate.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

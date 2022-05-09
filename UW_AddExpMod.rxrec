@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a490beb8-8fdf-460f-af8a-d318a5e8d857"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UW_AddExpMod"
+	namespace="Sid_FCGAProject">
+	</codegen>
+	<variables>
+		<var
+		id="21cfce64-8c1f-473b-b9b2-a1564cb6b1db"
+		name="UW_ExpMod">
+			0.89
+		</var>
+		<var
+		id="55e44427-1974-4863-b782-c5fc1df66e57"
+		name="Status_Reason">
+			UW Experience Mod
+		</var>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8e9b1f44-96e2-47c0-b73b-67b8a46b89ca">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ebdb92da-32f5-4e1c-84f3-e151258af52e"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//div[#'GenralInfo']/div[1]/div/div[2]/div[8]//label[@innertext='Yes']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="ed0f658e-3381-4ece-8cec-5791b4439bc7">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a092370f-ec35-42df-b0f2-bd3340f1153d"
+		sx="736"
+		sy="383"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="43ac8ef2-5b1a-4a3a-9b54-9c9f86c7ef9b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="695,374,150,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtExpMod
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						5
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtExpMod
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtExpMod']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="18bce705-0e17-4c5a-bd88-6cb96ae40ecd">
+				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
+AooooAKKKKACiiigAooooAKKKKACiiigD//Z
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="0.89"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="c7f10957-8bcc-4299-8f69-ac86616dcb42">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="UW_ExpMod">
+				</binding>
+			</bindings>
+			<info
+			id="43ac8ef2-5b1a-4a3a-9b54-9c9f86c7ef9b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="1"
+				prefcap="inputtag"
+				rect="695,374,150,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtExpMod
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						5
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						txtExpMod
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtExpMod']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="326ade8f-9e08-4109-bc7a-9c4e29268ac6">
+				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
+AooooAKKKKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UW_AddExpMod.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
