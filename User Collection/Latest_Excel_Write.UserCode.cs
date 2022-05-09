@@ -35,7 +35,7 @@ namespace Sid_FCGAProject.User_Collection
         }
         public void TestExcelWrite (string TCID, string Product, string TestScenario, string ClassCode, string ClassDescription, string ClassGroup, string InsuredName, string ReferralReason, string InsuredAddress, string PrdPremium, string CarrierName, string MIPolicyNo, string XSPolicyNo, string StatusReason, string StartTime, string EndTime, string EPath)
         {
-        	string ExcelPath = Path.Combine(Environment.CurrentDirectory, EPath);
+        	/*string ExcelPath = Path.Combine(Environment.CurrentDirectory, EPath);
         	Microsoft.Office.Interop.Excel.Application excelFile = new Microsoft.Office.Interop.Excel.Application();
             Microsoft.Office.Interop.Excel.Workbook excelWB= excelFile.Workbooks.Open(@ExcelPath);
             Microsoft.Office.Interop.Excel.Worksheet excelWS=(Microsoft.Office.Interop.Excel.Worksheet) excelWB.Worksheets.get_Item("Report");
@@ -112,7 +112,7 @@ namespace Sid_FCGAProject.User_Collection
             
             excelWB.Save();
             excelWB.Close();
-            excelFile.Quit();
+            excelFile.Quit();*/
             
         }
     }
